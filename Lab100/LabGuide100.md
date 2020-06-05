@@ -3,7 +3,7 @@
 ## Introduction
 
 This lab will walk you through OAX and we will be analyzing financial data from your Fusion ERP data. The ERP data has already been pre-configured to be in your OAX environment, and will require you to understand how the out-of-the-box visualizations and metrics help the Finance Manager figure out ways to better the company’s accounts payable ratio. *In addition to the workshop*, feel free to watch the walk-through companion video by clicking on the following link:
-[Lab 100 Walkthrough Video](<INSERT LINK HERE>)
+[Lab 100 Walkthrough Video](https://otube.oracle.com/media/PaaS+for+SaaS+-+Lab+100A+OAX/0_qehnb0l1)
 
 ### Objectives
 -   Learn about OAX's prebuilt capabilities, decks, and KPI cards

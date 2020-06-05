@@ -9,7 +9,7 @@
 
 This lab walks you through registering a demo using a Fusion Apps demo title that already has an integrated Oracle Digital Assistant demo environment. From there you will be able to interact with the Digital Assistant through the perspective of a Finance Manager and a new hire. 
 *In addition to the workshop*, feel free to watch the walk-through companion video by clicking on the following link:
-[Lab 200 Walkthrough Video](<INSERT LINK HERE>)
+[Lab 200 Walkthrough Video](https://otube.oracle.com/media/PaaS+for+SaaS+-+Lab+200A+ODA/0_1s4o1z83)
 
 
 

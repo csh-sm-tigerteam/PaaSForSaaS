@@ -9,7 +9,7 @@
 ## Introduction
 
 *In addition to the workshop*, feel free to watch the walk-through companion video by clicking on the following link:
-[Lab 300A Walkthrough Video](<INSERT LINK HERE>)
+[Lab 300A Walkthrough Video](https://otube.oracle.com/media/PaaS+for+SaaS+-+Lab+300AA+OIC/0_u9vafbok)
 
 In this lab, you will use Oracle Integration to make a connection to your Cloud ERP instance. From there, you will build a basic application integration that creates an Order. After that, you will create a Process that allows for human approval. You will create a process form that allows you to enter order information. The process allows you to define workflow approval and call an integration to create an Order within ERP.
 
