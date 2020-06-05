@@ -9,7 +9,7 @@
 
 This lab walks you through registering a Fusion apps demo environment. From there you will be able to start integrating the demo with Identity Cloud Service (IDCS) and Cloud Access Security Broker (CASB). 
 *In addition to the workshop*, feel free to watch the walk-through companion video by clicking on the following link:
-[Lab 400 Walkthrough Video](<INSERT LINK HERE>)
+[Lab 400 Walkthrough Video](https://otube.oracle.com/media/PaaS+for+SaaS+-+Lab+400A+IDCS+CASB/0_xghjxsrq)
 
 
 
