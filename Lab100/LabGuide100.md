@@ -1,26 +1,26 @@
-# Lab 100: Oracle Analytics for Application (OAX) with ERP Cloud (INTERNAL ONLY)
+# Lab 100: Oracle Fusion ERP Analytics (INTERNAL ONLY)
 
 ## Introduction
 
-This lab will walk you through OAX and we will be analyzing financial data from your Fusion ERP data. The ERP data has already been pre-configured to be in your OAX environment, and will require you to understand how the out-of-the-box visualizations and metrics help the Finance Manager figure out ways to better the company’s accounts payable ratio. *In addition to the workshop*, feel free to watch the walk-through companion video by clicking on the following link:
+This lab will walk you through Oracle Fusion ERP Analytics and we will be analyzing financial data from your Fusion ERP data. The ERP data has already been pre-configured to be in your Oracle Fusion ERP Analytics environment, and will require you to understand how the out-of-the-box visualizations and metrics help the Finance Manager figure out ways to better the company’s accounts payable ratio. *In addition to the workshop*, feel free to watch the walk-through companion video by clicking on the following link:
 [Lab 100 Walkthrough Video](https://otube.oracle.com/media/PaaS+for+SaaS+-+Lab+100A+OAX/0_qehnb0l1)
 
 ### Objectives
--   Learn about OAX's prebuilt capabilities, decks, and KPI cards
+-   Learn about Oracle Fusion ERP Analytics's prebuilt capabilities, decks, and KPI cards
 -   Learn how to build and customize KPI cards
 -   Learn how to set conditions on KPI cards
 -   Learn how to send out notifications to team members  
 
 ### Required Artifacts
 -   The following lab requires an Oracle Public Cloud account that will either be supplied by your instructor, or can be obtained through the following steps.
--   An OAX environment from nac-oax-demo-environment
+-   An Oracle Fusion ERP Analytics environment from nac-oax-demo-environment
 -   The estimated time to complete this lab is 12 minutes
 
-## Part 1. Sign Into OAX Environment
+## Part 1. Sign Into Oracle Fusion ERP Analytics Environment
 
 ### **STEP 1** : Log in using SSO credentials
 
--   Once receiving access to your OAX environment, click on **‘Oracle SSO’** to sign in using your SSO credentials. 
+-   Once receiving access to your Oracle Fusion ERP Analytics environment, click on **‘Oracle SSO’** to sign in using your SSO credentials. 
 
 -   **Type in SSO**
 
@@ -28,9 +28,9 @@ This lab will walk you through OAX and we will be analyzing financial data from 
 
   ![](./images/SSO.png " ")
 
-## Part 2. Navigating Through the OAX Environment
+## Part 2. Navigating Through the Oracle Fusion ERP Analytics Environment
 
-### **STEP 1**: Get to Know the OAX Environment
+### **STEP 1**: Get to Know the Oracle Fusion ERP Analytics Environment
 
 -   From the default landing page, click on the **hamburger menu** on the top left and **click ‘Decks’** to view the available and pre- built decks.
 
@@ -63,7 +63,7 @@ This lab will walk you through OAX and we will be analyzing financial data from 
 
 ![](./images/Clickto_Payables_Analysis.png " ")
 
--   Notice the automated visualizations that come with OAX, to help the financial manager understand variables affecting the ratio.
+-   Notice the automated visualizations that come with Oracle Fusion ERP Analytics, to help the financial manager understand variables affecting the ratio.
 
 ## Part 5: Adding a KPI Card
 
@@ -174,6 +174,6 @@ This lab will walk you through OAX and we will be analyzing financial data from 
 
 ## Summary
 
--   In this lab, we walked through logging into your OAX environment and interacted with the out-of-the-box KPI cards and decks which pull from your Fusion ERP environment. We also learned how to add and customize our own KPI metrics to, while collaborating with colleagues by sending them alert notifications for KPIs that indicated a YELLOW condition
+-   In this lab, we walked through logging into your Oracle Fusion ERP Analytics environment and interacted with the out-of-the-box KPI cards and decks which pull from your Fusion ERP environment. We also learned how to add and customize our own KPI metrics to, while collaborating with colleagues by sending them alert notifications for KPIs that indicated a YELLOW condition
 -   **You’re now ready to move onto the next lab!**
 
