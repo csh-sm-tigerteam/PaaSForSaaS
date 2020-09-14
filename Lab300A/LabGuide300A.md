@@ -342,13 +342,15 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
     -   **BuyingPartyName** to **BuyingPartyName**
     -   **BuyingPartyContactName** to **BuyingPartyContactName**
     -   Create target node for **TransactionalCurrencyCode** and input **"USD"**. Click on the check box. 
-    -   **BusinessUniteName** to **RequestingBusinessUniteName**
+    -   **BusinessUnitName** to **RequestingBusinessUnitName**
     -   Create target node for **FreezePriceFlag** and input **"false"**. Click on the check box.
     -   Create target node for **FreezeShippingChargeFlag** and input **"false"**. Click on the check box.
     -   Create target node for **FreezeTaxFlag** and input **"false"**. Click on the check box.
     -   **ShipToPartyIdentifier** to **ShipToPartyIdentifier**.
     -   **ShipToPartyName** to **ShipToPartyName**.
     -   **BillToCustomerName** to **BillToCustomerName**.
+    -   **ShipToPartySiteIdentifier** to **ShipToPartySiteIdentifier**.
+    -   **OrderItems** to **Line**.
     -   Create target node for **Line** -> **SourceTransactionLineIdentifier**. Click on the **Toggle functions Icon** on the top right corner. Expand **Node-set**. Select **{}position** and drag it into the expression box in the bottom. Click on the check box.
     
     ![](./images/MapERP7.png " ")
@@ -357,6 +359,9 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
     
     ![](./images/MapERP9.png " ")
     
+    -   Create target node for **Line** -> **SourceTransactionScheduleIdentifier**. Click on the **Toggle functions Icon** on the top right corner. Expand **Node-set**. Select **{}position** and drag it into the expression box in the bottom. Click on the check box.
+    -   Create target node for **Line** -> **SourceTransactionLineNumber**. Click on the **Toggle functions Icon** on the top right corner. Expand **Node-set**. Select **{}position** and drag it into the expression box in the bottom. Click on the check box.
+    -   Create target node for **Line** -> **SourceTransactionScheduleNumber**. Click on the **Toggle functions Icon** on the top right corner. Expand **Node-set**. Select **{}position** and drag it into the expression box in the bottom. Click on the check box.
     -   **OrderItems** -> **ProductId** to **Line** -> **ProductNumber**.
     -   **OrderItems** -> **Quantity** to **Line** -> **OrderedQuantity**.
     -   Create target node for **Line** -> **OrderedQuantity** -> **@unityCode** and input **"Ea"**. Click on the check box.
@@ -368,6 +373,7 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
     -   Create target node for **Line** -> **TransactionCategoryCode**  and input **"ORDER"**. Click on the check box.
     -   **ShipToPartyIdentifier** to **Line** -> **ShipToPartyIdentifier**.
     -   **ShipToPartyName** to **Line** -> **ShipToPartyName**.
+    -   **ShipToPartySiteIdentifier** to **Line** -> **ShipToPartySiteIdentifier**.
     -   **BillToCustomerName** to **Line** -> **BillToCustomerName**.
     -   **BillToAccountSiteUseIdentifier** to **Line** -> **BillToAccountSiteUseIdentifier**.
     -   Create target node for **Line** -> **UnitSellingPrice** -> **@currencyCode**  and input **"USD"**. Click on the check box.
