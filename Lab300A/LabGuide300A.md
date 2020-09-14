@@ -1,4 +1,4 @@
-# Lab 300A: Integrating Cloud ERP with OIC (INTERNAL ONLY)
+# Lab 300A: Integrating Cloud ERP with OIC
 <!-- Comment out table of contents
 ## Table of Contents
 [Introduction](#introduction)
@@ -192,22 +192,25 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 
 ```JSON
 {
-  "TransactionIdentifier" : "Creekside Warehouse-14073",
-  "BuyingPartyName" : "Pinnacle Technologies",
-  "BuyingPartyContactName" : "Isaac Nelson",
-  "BusinessUnitName" : "US1 Business Unit",
-  "ShipToPartyIdentifier" : "A100000000409220",
-  "ShipToPartyName" : "Pinnacle Technologies",
-  "BillToCustomerName" : "Pinnacle Technologies",
-  "ShipToPartySiteIdentifier" : "A300000048361113",
-  "BillToAccountSiteUseIdentifier" : "A300000048361115",
-  "OrderItems" : [ {
-    "ProductId" : "AS46336",
-    "Quantity" : 3
-  }, {
-    "ProductId" : "AS46336",
-    "Quantity" : 3
-  } ]
+   "TransactionIdentifier":"Creekside Warehouse-17190",
+   "BuyingPartyName":"Pinnacle Technologies",
+   "BuyingPartyContactName":"Isaac Nelson",
+   "BusinessUnitName":"US1 Business Unit",
+   "ShipToPartyIdentifier":"100000000409220",
+   "ShipToPartyName":"Pinnacle Technologies",
+   "BillToCustomerName":"Pinnacle Technologies",
+   "ShipToPartySiteIdentifier":"300000048361113",
+   "BillToAccountSiteUseIdentifier":"300000048361115",
+   "OrderItems":[
+      {
+         "ProductId":"AS46336",
+         "Quantity":3
+      },
+      {
+         "ProductId":"AS46336",
+         "Quantity":3
+      }
+   ]
 }
 
 ```
@@ -442,7 +445,7 @@ You will need the following to be able to connect to the Oracle Autonomous Data 
 -   Enter the following payload to test your API. Then click **Send Button**. 
 
 ```JSON
-{ "TransactionIdentifier": "Creekside Warehouse-14073", "BuyingPartyName": "Pinnacle Technologies", "BuyingPartyContactName": "Isaac Nelson", "BusinessUnitName": "US1 Business Unit", "ShipToPartyIdentifier": "100000000409220", "ShipToPartyName": "Pinnacle Technologies", "BillToCustomerName": "Pinnacle Technologies", "ShipToPartySiteIdentifier": "300000048361113", "BillToAccountSiteUseIdentifier": "300000048361115", "OrderItems": [ { "ProductId": "AS46336", "Quantity": 3 }, { "ProductId": "AS46336", "Quantity": 3 } ] }
+{ "TransactionIdentifier": "Creekside Warehouse-17190", "BuyingPartyName": "Pinnacle Technologies", "BuyingPartyContactName": "Isaac Nelson", "BusinessUnitName": "US1 Business Unit", "ShipToPartyIdentifier": "100000000409220", "ShipToPartyName": "Pinnacle Technologies", "BillToCustomerName": "Pinnacle Technologies", "ShipToPartySiteIdentifier": "300000048361113", "BillToAccountSiteUseIdentifier": "300000048361115", "OrderItems": [ { "ProductId": "AS46336", "Quantity": 3 }, { "ProductId": "AS46336", "Quantity": 3 } ] }
 ```
 
 ![](./images/Postman3.png " ")
